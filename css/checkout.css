@@ -3,6 +3,16 @@
 body {
     font-family: Poppins;
 }
-#errorPassword, #errorName, #errorPhone {
-    display: none;
+
+.invalid{
+    border: 2px solid red;
+}
+.valid{
+    border: 2px solid green;
+}
+
+.error{
+    color: red;
+    font-size: 1rem;
+    width: 100%;
 }
