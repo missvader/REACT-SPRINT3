@@ -173,13 +173,8 @@ function addToCart(id) {
     
 }
 console.log(cart);
-addToCart(1);
-addToCart(1);
-addToCart(1);
-addToCart(1);
-addToCart(3);
-addToCart(5);
-addToCart(5);
+addToCart();
+
 
 
 
@@ -200,15 +195,5 @@ removeFromCart();
 // Exercise 9
 function printCart() {
     // Fill the shopping cart modal manipulating the shopping cart dom
-    let $list = document.querySelector('.list');
-    const fragment = document.createDocumentFragment();
-
-    for(i=0; i<cart.length; i++){
-        const li = document.createElement("li"); 
-        li.textContent = cart[i].textContent;
-        const referenceNode = fragment.firstChild;
-        fragment.insertBefore(li, referenceNode);
-    }
-   $list.appendChild(fragment);
+    
 }
-printCart();

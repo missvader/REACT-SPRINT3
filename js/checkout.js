@@ -17,7 +17,6 @@ const $errorEmail = document.getElementById('errorEmail')  ;
 const $errorAddress = document.getElementById('errorAddress');
 
 // Exercise 6
-const form = document.getElementById('form');
 
 
 
