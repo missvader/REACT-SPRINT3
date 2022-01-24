@@ -29,7 +29,7 @@ function validate(event) {
     const regPhone= /^\+?(6\d{2}|7[1-9]\d{1})\d{6}$/;
     const regPassword = /^(?=.*?\d)(?=.*?[a-zA-Z])[a-zA-Z\d]+$/;  
     const regAddress = /^[a-zA-Z0-9\s,.'-]{3,}$/ ;
-    //........validacion name.............
+    //........validacion name.........
      if(!regName.test($name.value)){
             //mensaje de error
         $errorName.innerHTML = "Numbers in the name are not valid";
